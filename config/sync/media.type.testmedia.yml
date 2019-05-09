@@ -1,0 +1,13 @@
+uuid: 74647eb4-7f15-439b-912a-d2496670722e
+langcode: es
+status: true
+dependencies: {  }
+id: testmedia
+label: TestMedia
+description: 'esto es una gran prueba'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }

@@ -1,0 +1,14 @@
+uuid: 89d769ea-bdec-4966-8936-15eb8998ff26
+name: Tarea03
+mail: tarea@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

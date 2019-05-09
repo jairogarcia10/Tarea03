@@ -1,0 +1,11 @@
+uuid: 1e60b8e6-ba0a-4cae-b228-4161b980d584
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.generos_literarios
+id: taxonomy_term.generos_literarios
+target_entity_type_id: taxonomy_term
+target_bundle: generos_literarios
+default_langcode: site_default
+language_alterable: false

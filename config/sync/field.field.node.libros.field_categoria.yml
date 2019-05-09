@@ -1,0 +1,29 @@
+uuid: 7cb6faf4-78e7-4656-9898-38978243b4d6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria
+    - node.type.libros
+    - taxonomy.vocabulary.generos_literarios
+id: node.libros.field_categoria
+field_name: field_categoria
+entity_type: node
+bundle: libros
+label: Categoria
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      generos_literarios: generos_literarios
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

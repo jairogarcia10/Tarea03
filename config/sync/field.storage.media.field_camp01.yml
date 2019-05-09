@@ -1,0 +1,19 @@
+uuid: 5e577205-6bd6-4d34-98d8-286e1fe5dab1
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_camp01
+field_name: field_camp01
+entity_type: media
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

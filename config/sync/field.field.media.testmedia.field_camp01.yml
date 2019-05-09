@@ -1,0 +1,27 @@
+uuid: 2b6b15d0-90a7-4ead-8639-e4dd2147af71
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_camp01
+    - media.type.testmedia
+id: media.testmedia.field_camp01
+field_name: field_camp01
+entity_type: media
+bundle: testmedia
+label: camp01
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      testmedia: testmedia
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

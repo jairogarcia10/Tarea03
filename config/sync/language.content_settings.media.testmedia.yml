@@ -1,0 +1,11 @@
+uuid: 527c2cfa-1abe-477e-8ae0-1b36e949dbd6
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.testmedia
+id: media.testmedia
+target_entity_type_id: media
+target_bundle: testmedia
+default_langcode: site_default
+language_alterable: false

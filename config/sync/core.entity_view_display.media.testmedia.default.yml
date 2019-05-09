@@ -1,0 +1,64 @@
+uuid: 9bcbed67-b19c-4797-9763-11663d691f3a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.media.testmedia.field_camp01
+    - field.field.media.testmedia.field_media_image
+    - image.style.thumbnail
+    - media.type.testmedia
+  module:
+    - image
+    - user
+id: media.testmedia.default
+targetEntityType: media
+bundle: testmedia
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_camp01:
+    type: entity_reference_entity_view
+    weight: 7
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_media_image:
+    weight: 6
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  thumbnail:
+    type: image
+    weight: 5
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    region: content
+    third_party_settings: {  }
+  uid:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  name: true

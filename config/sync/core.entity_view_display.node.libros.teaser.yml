@@ -1,0 +1,35 @@
+uuid: 193c0f70-4268-4949-b525-8d83b74da46a
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.libros.field_autor
+    - field.field.node.libros.field_categoria
+    - field.field.node.libros.field_descripcion
+    - node.type.libros
+  module:
+    - text
+    - user
+id: node.libros.teaser
+targetEntityType: node
+bundle: libros
+mode: teaser
+content:
+  field_descripcion:
+    type: text_summary_or_trimmed
+    weight: 3
+    region: content
+    label: above
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_autor: true
+  field_categoria: true
+  langcode: true

@@ -1,0 +1,19 @@
+uuid: cf30dc4a-5bc5-4fad-a6a2-4b00968e4266
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.libros
+id: node.libros.field_autor
+field_name: field_autor
+entity_type: node
+bundle: libros
+label: Autor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

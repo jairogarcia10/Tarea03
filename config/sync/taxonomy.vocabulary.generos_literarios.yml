@@ -1,0 +1,8 @@
+uuid: b6bea0ba-ebdb-4cd8-90bc-fd7ef5927b5d
+langcode: es
+status: true
+dependencies: {  }
+name: 'Generos Literarios'
+vid: generos_literarios
+description: 'Se van agregar generos literarios'
+weight: 0
