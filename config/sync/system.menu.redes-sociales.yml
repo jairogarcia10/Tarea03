@@ -1,0 +1,8 @@
+uuid: 09cee5bf-8bbf-42c6-8734-197f431243df
+langcode: es
+status: true
+dependencies: {  }
+id: redes-sociales
+label: 'Redes sociales'
+description: ''
+locked: false
